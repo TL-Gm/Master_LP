@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-label="Kanalbau im Grundwasser – schematischer Querschnitt">
+<defs>
+  <pattern id="kgboden" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+    <rect width="12" height="12" fill="#EFE9DD"/><line x1="0" y1="0" x2="0" y2="12" stroke="#C5B9A2" stroke-width="1.4"/>
+  </pattern>
+  <pattern id="kgfb" width="9" height="9" patternUnits="userSpaceOnUse">
+    <rect width="9" height="9" fill="#FFD6A8"/><circle cx="2.5" cy="2.5" r="1.1" fill="#E8870C"/><circle cx="7" cy="7" r="0.8" fill="#E8870C"/>
+  </pattern>
+  <pattern id="kgbeton" width="14" height="14" patternUnits="userSpaceOnUse">
+    <rect width="14" height="14" fill="#DCDEE1"/><circle cx="3" cy="4" r="1" fill="#8E949C"/><path d="M9 9 l2 -3 l2 3 z" fill="none" stroke="#8E949C" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="kgschotter" width="10" height="10" patternUnits="userSpaceOnUse">
+    <rect width="10" height="10" fill="#E4E4E4"/><circle cx="3" cy="3" r="1.8" fill="none" stroke="#9A9EA5" stroke-width="0.8"/><circle cx="8" cy="7.5" r="1.3" fill="none" stroke="#9A9EA5" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="kgverbau" width="8" height="16" patternUnits="userSpaceOnUse">
+    <rect width="8" height="16" fill="#7A8089"/><path d="M0 0 L8 8 L0 16" fill="none" stroke="#4E535B" stroke-width="1"/>
+  </pattern>
+  <marker id="kgpfeil" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0 0 L10 5 L0 10 z" fill="#B8650A"/>
+  </marker>
+</defs>
+<rect width="800" height="480" fill="#fff"/>
+<text x="40" y="42" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="22" fill="#222" font-weight="700" text-anchor="start" font-style="normal">Kanalbau im Grundwasser</text>
+<text x="40" y="64" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="13" fill="#666" font-weight="400" text-anchor="start" font-style="normal">Querschnitt durch einen Kanalgraben mit Verbau</text>
+<text x="780" y="42" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12" fill="#888" font-weight="400" text-anchor="end" font-style="italic">schematisch, ohne Maßstab</text>
+
+<rect x="40" y="110" width="500" height="320" fill="url(#kgboden)"/>
+<rect x="282" y="110" width="216" height="160" fill="#F6F1E7"/>
+<rect x="282" y="270" width="216" height="140" fill="url(#kgfb)" stroke="#2B2F36" stroke-width="2"/>
+<rect x="282" y="410" width="216" height="20" fill="url(#kgboden)"/>
+<circle cx="390" cy="345" r="44" fill="url(#kgbeton)" stroke="#2B2F36" stroke-width="2.2"/><circle cx="390" cy="345" r="35" fill="#fff" stroke="#2B2F36" stroke-width="1.6"/>
+<rect x="274" y="92" width="8" height="338" fill="url(#kgverbau)" stroke="#2B2F36" stroke-width="1"/>
+<rect x="498" y="92" width="8" height="338" fill="url(#kgverbau)" stroke="#2B2F36" stroke-width="1"/>
+<text x="390" y="195" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="14" fill="#9A8F78" font-weight="400" text-anchor="middle" font-style="italic">Verfüllung</text>
+<line x1="40" y1="110" x2="540" y2="110" stroke="#2B2F36" stroke-width="2"/>
+<line x1="40" y1="235" x2="540" y2="235" stroke="#2F86B8" stroke-width="2" stroke-dasharray="10 6"/>
+<path d="M112 221 L128 221 L120 233 z" fill="none" stroke="#2F86B8" stroke-width="1.6"/>
+<line x1="113" y1="240" x2="127" y2="240" stroke="#2F86B8" stroke-width="1.4"/>
+<line x1="116" y1="245" x2="124" y2="245" stroke="#2F86B8" stroke-width="1.4"/>
+<line x1="566" y1="107" x2="502" y2="150" stroke="#2B2F36" stroke-width="0.9"/>
+<circle cx="502" cy="150" r="3" fill="#2B2F36"/>
+<circle cx="582" cy="107" r="11" fill="#fff" stroke="#2B2F36" stroke-width="1.2"/>
+<text x="582" y="111.5" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12" fill="#2B2F36" font-weight="700" text-anchor="middle" font-style="normal">1</text>
+<text x="600" y="112" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="15" fill="#222" font-weight="700" text-anchor="start" font-style="normal">Verbau</text>
+<text x="600" y="130" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12.5" fill="#555" font-weight="400" text-anchor="start" font-style="normal">sichert die Grabenwände</text>
+<line x1="566" y1="181" x2="230" y2="235" stroke="#2B2F36" stroke-width="0.9"/>
+<circle cx="230" cy="235" r="3" fill="#2B2F36"/>
+<circle cx="582" cy="181" r="11" fill="#fff" stroke="#2B2F36" stroke-width="1.2"/>
+<text x="582" y="185.5" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12" fill="#2B2F36" font-weight="700" text-anchor="middle" font-style="normal">2</text>
+<text x="600" y="186" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="15" fill="#222" font-weight="700" text-anchor="start" font-style="normal">Grundwasserspiegel</text>
+<line x1="566" y1="247" x2="468" y2="300" stroke="#2B2F36" stroke-width="0.9"/>
+<circle cx="468" cy="300" r="3" fill="#2B2F36"/>
+<circle cx="582" cy="247" r="11" fill="#fff" stroke="#2B2F36" stroke-width="1.2"/>
+<text x="582" y="251.5" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12" fill="#2B2F36" font-weight="700" text-anchor="middle" font-style="normal">3</text>
+<text x="600" y="252" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="15" fill="#222" font-weight="700" text-anchor="start" font-style="normal">Flüssigboden</text>
+<text x="600" y="270" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12.5" fill="#555" font-weight="400" text-anchor="start" font-style="normal">bettet das Rohr gleichmäßig</text>
+<text x="600" y="286" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12.5" fill="#555" font-weight="400" text-anchor="start" font-style="normal">ein – Einbau auch im</text>
+<text x="600" y="302" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12.5" fill="#555" font-weight="400" text-anchor="start" font-style="normal">Grundwasser</text>
+<line x1="566" y1="339" x2="420" y2="330" stroke="#2B2F36" stroke-width="0.9"/>
+<circle cx="420" cy="330" r="3" fill="#2B2F36"/>
+<circle cx="582" cy="339" r="11" fill="#fff" stroke="#2B2F36" stroke-width="1.2"/>
+<text x="582" y="343.5" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12" fill="#2B2F36" font-weight="700" text-anchor="middle" font-style="normal">4</text>
+<text x="600" y="344" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="15" fill="#222" font-weight="700" text-anchor="start" font-style="normal">Kanalrohr</text>
+<line x1="566" y1="399" x2="330" y2="410" stroke="#2B2F36" stroke-width="0.9"/>
+<circle cx="330" cy="410" r="3" fill="#2B2F36"/>
+<circle cx="582" cy="399" r="11" fill="#fff" stroke="#2B2F36" stroke-width="1.2"/>
+<text x="582" y="403.5" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12" fill="#2B2F36" font-weight="700" text-anchor="middle" font-style="normal">5</text>
+<text x="600" y="404" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="15" fill="#222" font-weight="700" text-anchor="start" font-style="normal">Grabensohle</text>
+
+<line x1="40" y1="440" x2="780" y2="440" stroke="#E2E2E2" stroke-width="1"/>
+<rect x="40" y="451" width="22" height="14" fill="url(#kgfb)" stroke="#2B2F36" stroke-width="0.8"/>
+<text x="70" y="462.5" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12.5" fill="#444" font-weight="400" text-anchor="start" font-style="normal">Flüssigboden</text>
+<rect x="180" y="451" width="22" height="14" fill="url(#kgboden)" stroke="#2B2F36" stroke-width="0.8"/>
+<text x="210" y="462.5" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12.5" fill="#444" font-weight="400" text-anchor="start" font-style="normal">Gewachsener Boden</text>
+<rect x="355" y="451" width="22" height="14" fill="url(#kgbeton)" stroke="#2B2F36" stroke-width="0.8"/>
+<text x="385" y="462.5" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12.5" fill="#444" font-weight="400" text-anchor="start" font-style="normal">Beton</text>
+<rect x="446" y="451" width="22" height="14" fill="url(#kgverbau)" stroke="#2B2F36" stroke-width="0.8"/>
+<text x="476" y="462.5" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12.5" fill="#444" font-weight="400" text-anchor="start" font-style="normal">Verbau</text>
+<line x1="544" y1="458" x2="566" y2="458" stroke="#2F86B8" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="574" y="462.5" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12.5" fill="#444" font-weight="400" text-anchor="start" font-style="normal">Grundwasser</text>
+</svg>

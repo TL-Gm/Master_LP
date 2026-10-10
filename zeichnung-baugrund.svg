@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-label="Baugrundverbesserung – schematischer Querschnitt">
+<defs>
+  <pattern id="bgboden" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+    <rect width="12" height="12" fill="#EFE9DD"/><line x1="0" y1="0" x2="0" y2="12" stroke="#C5B9A2" stroke-width="1.4"/>
+  </pattern>
+  <pattern id="bgfb" width="9" height="9" patternUnits="userSpaceOnUse">
+    <rect width="9" height="9" fill="#FFD6A8"/><circle cx="2.5" cy="2.5" r="1.1" fill="#E8870C"/><circle cx="7" cy="7" r="0.8" fill="#E8870C"/>
+  </pattern>
+  <pattern id="bgbeton" width="14" height="14" patternUnits="userSpaceOnUse">
+    <rect width="14" height="14" fill="#DCDEE1"/><circle cx="3" cy="4" r="1" fill="#8E949C"/><path d="M9 9 l2 -3 l2 3 z" fill="none" stroke="#8E949C" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="bgschotter" width="10" height="10" patternUnits="userSpaceOnUse">
+    <rect width="10" height="10" fill="#E4E4E4"/><circle cx="3" cy="3" r="1.8" fill="none" stroke="#9A9EA5" stroke-width="0.8"/><circle cx="8" cy="7.5" r="1.3" fill="none" stroke="#9A9EA5" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="bgverbau" width="8" height="16" patternUnits="userSpaceOnUse">
+    <rect width="8" height="16" fill="#7A8089"/><path d="M0 0 L8 8 L0 16" fill="none" stroke="#4E535B" stroke-width="1"/>
+  </pattern>
+  <marker id="bgpfeil" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0 0 L10 5 L0 10 z" fill="#B8650A"/>
+  </marker>
+</defs>
+<rect width="800" height="480" fill="#fff"/>
+<text x="40" y="42" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="22" fill="#222" font-weight="700" text-anchor="start" font-style="normal">Baugrundverbesserung</text>
+<text x="40" y="64" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="13" fill="#666" font-weight="400" text-anchor="start" font-style="normal">Querschnitt durch eine Baugrube</text>
+<text x="780" y="42" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12" fill="#888" font-weight="400" text-anchor="end" font-style="italic">schematisch, ohne Maßstab</text>
+
+<rect x="40" y="110" width="500" height="320" fill="url(#bgboden)"/>
+<polygon points="110,110 470,110 410,400 170,400" fill="#fff"/>
+<polygon points="149,300 431,300 410,400 170,400" fill="url(#bgfb)" stroke="#2B2F36" stroke-width="2"/>
+<rect x="175" y="280" width="230" height="20" fill="url(#bgbeton)" stroke="#2B2F36" stroke-width="2"/>
+<rect x="195" y="150" width="190" height="130" fill="none" stroke="#8E949C" stroke-width="1.6" stroke-dasharray="8 6"/>
+<text x="290" y="220" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="14" fill="#8E949C" font-weight="400" text-anchor="middle" font-style="italic">geplantes Bauwerk</text>
+<line x1="110" y1="110" x2="170" y2="400" stroke="#2B2F36" stroke-width="1.6"/>
+<line x1="470" y1="110" x2="410" y2="400" stroke="#2B2F36" stroke-width="1.6"/>
+<line x1="40" y1="110" x2="540" y2="110" stroke="#2B2F36" stroke-width="2"/>
+<line x1="40" y1="330" x2="540" y2="330" stroke="#2F86B8" stroke-width="2" stroke-dasharray="10 6"/>
+<path d="M492 316 L508 316 L500 328 z" fill="none" stroke="#2F86B8" stroke-width="1.6"/>
+<line x1="493" y1="335" x2="507" y2="335" stroke="#2F86B8" stroke-width="1.4"/>
+<line x1="496" y1="340" x2="504" y2="340" stroke="#2F86B8" stroke-width="1.4"/>
+<line x1="566" y1="145" x2="300" y2="160" stroke="#2B2F36" stroke-width="0.9"/>
+<circle cx="300" cy="160" r="3" fill="#2B2F36"/>
+<circle cx="582" cy="145" r="11" fill="#fff" stroke="#2B2F36" stroke-width="1.2"/>
+<text x="582" y="149.5" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12" fill="#2B2F36" font-weight="700" text-anchor="middle" font-style="normal">1</text>
+<text x="600" y="150" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="15" fill="#222" font-weight="700" text-anchor="start" font-style="normal">Bauwerk</text>
+<text x="600" y="168" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12.5" fill="#555" font-weight="400" text-anchor="start" font-style="normal">wird auf dem verbesserten</text>
+<text x="600" y="184" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12.5" fill="#555" font-weight="400" text-anchor="start" font-style="normal">Untergrund gegründet</text>
+<line x1="566" y1="225" x2="390" y2="290" stroke="#2B2F36" stroke-width="0.9"/>
+<circle cx="390" cy="290" r="3" fill="#2B2F36"/>
+<circle cx="582" cy="225" r="11" fill="#fff" stroke="#2B2F36" stroke-width="1.2"/>
+<text x="582" y="229.5" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12" fill="#2B2F36" font-weight="700" text-anchor="middle" font-style="normal">2</text>
+<text x="600" y="230" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="15" fill="#222" font-weight="700" text-anchor="start" font-style="normal">Bodenplatte</text>
+<line x1="566" y1="295" x2="230" y2="370" stroke="#2B2F36" stroke-width="0.9"/>
+<circle cx="230" cy="370" r="3" fill="#2B2F36"/>
+<circle cx="582" cy="295" r="11" fill="#fff" stroke="#2B2F36" stroke-width="1.2"/>
+<text x="582" y="299.5" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12" fill="#2B2F36" font-weight="700" text-anchor="middle" font-style="normal">3</text>
+<text x="600" y="300" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="15" fill="#222" font-weight="700" text-anchor="start" font-style="normal">Flüssigboden</text>
+<text x="600" y="318" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12.5" fill="#555" font-weight="400" text-anchor="start" font-style="normal">tragfähiger Untergrund –</text>
+<text x="600" y="334" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12.5" fill="#555" font-weight="400" text-anchor="start" font-style="normal">Einbau auch bei Grundwasser</text>
+<line x1="566" y1="371" x2="500" y2="330" stroke="#2B2F36" stroke-width="0.9"/>
+<circle cx="500" cy="330" r="3" fill="#2B2F36"/>
+<circle cx="582" cy="371" r="11" fill="#fff" stroke="#2B2F36" stroke-width="1.2"/>
+<text x="582" y="375.5" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12" fill="#2B2F36" font-weight="700" text-anchor="middle" font-style="normal">4</text>
+<text x="600" y="376" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="15" fill="#222" font-weight="700" text-anchor="start" font-style="normal">Grundwasserspiegel</text>
+<line x1="566" y1="413" x2="500" y2="410" stroke="#2B2F36" stroke-width="0.9"/>
+<circle cx="500" cy="410" r="3" fill="#2B2F36"/>
+<circle cx="582" cy="413" r="11" fill="#fff" stroke="#2B2F36" stroke-width="1.2"/>
+<text x="582" y="417.5" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12" fill="#2B2F36" font-weight="700" text-anchor="middle" font-style="normal">5</text>
+<text x="600" y="418" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="15" fill="#222" font-weight="700" text-anchor="start" font-style="normal">Gewachsener Boden</text>
+
+<line x1="40" y1="440" x2="780" y2="440" stroke="#E2E2E2" stroke-width="1"/>
+<rect x="40" y="451" width="22" height="14" fill="url(#bgfb)" stroke="#2B2F36" stroke-width="0.8"/>
+<text x="70" y="462.5" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12.5" fill="#444" font-weight="400" text-anchor="start" font-style="normal">Flüssigboden</text>
+<rect x="180" y="451" width="22" height="14" fill="url(#bgboden)" stroke="#2B2F36" stroke-width="0.8"/>
+<text x="210" y="462.5" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12.5" fill="#444" font-weight="400" text-anchor="start" font-style="normal">Gewachsener Boden</text>
+<rect x="355" y="451" width="22" height="14" fill="url(#bgbeton)" stroke="#2B2F36" stroke-width="0.8"/>
+<text x="385" y="462.5" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12.5" fill="#444" font-weight="400" text-anchor="start" font-style="normal">Beton</text>
+<line x1="446" y1="458" x2="468" y2="458" stroke="#2F86B8" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="476" y="462.5" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12.5" fill="#444" font-weight="400" text-anchor="start" font-style="normal">Grundwasser</text>
+</svg>
